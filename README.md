@@ -3,4 +3,5 @@
 2.clean code
 3.UI Scaled
 4.Improved animations
+5. Game mechanics are better
 
