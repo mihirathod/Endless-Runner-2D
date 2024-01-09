@@ -5,6 +5,7 @@ using UnityEngine;
 public class RepeatingBackground : MonoBehaviour
 {
     private Vector3 StartPos;
+    private float Repos = 200;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,7 @@ public class RepeatingBackground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x< StartPos.x - 220)
+        if (transform.position.x< StartPos.x -Repos)
         {
             transform.position = StartPos;
         }

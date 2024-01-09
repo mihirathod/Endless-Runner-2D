@@ -8,7 +8,6 @@ public class Menu : MonoBehaviour
 {
     public GameObject Mainmenu;
     public GameObject Shop;
-    public GameObject Privacy;
 
     public void PlayGame()
     {
@@ -37,13 +36,6 @@ public class Menu : MonoBehaviour
     {
         Shop.SetActive(false);
     }
-    public void PrivacyOn()
-    {
-        Privacy.SetActive(true);
-    }
-    public void PrivacyOfff()
-    {
-        Privacy.SetActive(false);
-    }
+    
 
 }

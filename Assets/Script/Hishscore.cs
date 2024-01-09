@@ -6,7 +6,7 @@ public class Hishscore : MonoBehaviour
 {
     public TextMeshProUGUI ScoreText;
     public  float  Score;
-    public float Increasepersec;
+    private float Increasepersec;
     private void Start()
     {
         ScoreText = GetComponent<TextMeshProUGUI>();

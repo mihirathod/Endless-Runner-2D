@@ -8,14 +8,9 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject Pausemenu;
     public bool gameIsPaused;
-    private PlayerMovement PlayerMovement;
-    public ObstacleCollision ObstacleCollision;
     public float restartDelay;
     public GameObject Restartt;
-    private void Start()
-    {
-    }
-
+   
 
     private void Update()
     {
